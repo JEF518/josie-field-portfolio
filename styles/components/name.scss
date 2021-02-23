@@ -1,0 +1,48 @@
+@import '../core/variables.scss';
+@font-face {
+  font-family: Cyber;
+  src: url('https://assets.codepen.io/605876/Blender-Pro-Bold.otf');
+  font-display: swap;
+}
+
+.name {
+  cursor: pointer;
+  position: relative;
+  font-family: 'Cyber', sans-serif;
+  font-family: 'Cyber', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  background: black;
+  font-size: 26px;
+  outline: transparent;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: 0;
+  min-width: 300px;
+  padding: 32px 64px;
+  margin-bottom: 4vw;
+  box-shadow: inset -20px 0 0 #e9c961;
+  clip-path: polygon(-10% -10%, 110% -10%, 110% 110%, 10% 110%, -10% 40%);
+}
+.name:hover {
+  background: white;
+  color: black;
+  box-shadow: inset -20px 0 0 #6b7f86;
+}
+.name:hover .name__subheading {
+  background: #6b7f86;
+  color: white;
+  box-shadow: 2px 2px inset #e9c961;
+}
+.name__subheading {
+  position: absolute;
+  padding: 1px 4px;
+  letter-spacing: 1px;
+  line-height: 1;
+  bottom: -5%;
+  right: 11%;
+  background: #e9c961;
+  color: black;
+  font-size: 19px;
+  box-shadow: 2px 2px inset #6b7f86;
+}

@@ -1,0 +1,53 @@
+{
+  "projects": {
+    "personal": [
+      {
+        "title": "Living Room",
+        "link": "https://jf-livingroom.herokuapp.com/",
+        "github": "https://github.com/jef518/livingroom",
+        "image": "livingroom.png",
+        "description": "A Frontend project using just html, css & js to create a virtual living room."
+      },
+      {
+        "title": "Movie Project",
+        "link": "https://jf-movie-proj.herokuapp.com/",
+        "github": "https://github.com/jef518/jf-movieproj",
+        "image": "jfmovieproj.png",
+        "description": "An Express Node project consuming apis and using templating to create a personal movie library."
+      },
+      {
+        "title": "Chrome Version Notifier",
+        "link": "https://github.com/jef518/google-snitch",
+        "github": "https://github.com/jef518/google-snitch",
+        "image": "googlesnitch.jpg",
+        "description": "A Node project that runs a cron to fetch information about upcoming chrome browser releases and notifies slack."
+      }
+    ],
+    "professional": [
+      {
+        "title": "Sky News Website",
+        "link": "https://news.sky.com",
+        "image": "skynews.png",
+        "description": "A leading news site for Sky",
+        "extra": true,
+        "myRole": "I worked on news.sky.com for over 2 years, both frontend and backend. I was involved in work on a large range of features and bugs from implementing new widgets and tools to optimising the site's AMP pages, handling incidents and improving performance."
+      },
+      {
+        "title": "Sky Scores App Data Feeds",
+        "link": "https://apps.apple.com/gb/app/sky-sports-scores/id325185696",
+        "image": "scores.png",
+        "description": "Data Feeds to power a new version of the football companion app by Sky",
+        "extra": true,
+        "myRole": "I worked on backend feeds to power various article lists, full articles and a graph service to map ids."
+      },
+      {
+        "title": "Sky Sports Website",
+        "link": "https://skysports.com",
+        "image": "skysports.png",
+        "description": "A leading sports journalism site by Sky",
+        "extra": true,
+        "myRole": "I worked to support implementing various features on skysports.com from advertisement integrations to layout work and backend fixes."
+      }
+    ]
+  }
+}

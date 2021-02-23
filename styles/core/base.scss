@@ -1,0 +1,30 @@
+@import 'variables';
+.homepage {
+  align-content: center;
+  background-image: url('../../public/images/graphpaper.jpg');
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background-image: none;
+  background-color: rgb(248, 247, 232);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: black;
+  @media only screen and (min-width: 1000px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #e9c961;
+}

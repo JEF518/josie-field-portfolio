@@ -1,0 +1,11 @@
+.blur-card {
+  min-width: 250px;
+  max-width: min-content;
+  min-height: 125px;
+  max-height: min-content;
+  backdrop-filter: blur(5px);
+  margin: 5% 2%;
+  box-shadow: 5px 10px 8px #000000b0;
+  border-radius: 10px;
+  text-decoration: none;
+}
