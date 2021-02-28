@@ -1,0 +1,14 @@
+.floating-links {
+  position: absolute;
+  top: 5%;
+  height: 100%;
+  right: 5%;
+  font-size: x-large;
+  .floating {
+    position: sticky;
+    a {
+      padding: 2px;
+      position: sticky;
+    }
+  }
+}

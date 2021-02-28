@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import FloatingLinks from '../components/floating-links';
 import Developer from '../components/developer';
 import Name from '../components/name';
 import ProjectContainer from '../components/project-container';
@@ -14,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Josie Field Portfolio</title>
+        <title>{personalData.name} Portfolio</title>
       </Head>
       <div className="homepage">
         <Name name="Josie Field"></Name>
@@ -30,6 +31,11 @@ export default function Home() {
             projects={projectsData.projects.professional}
           ></ProjectContainer>
         </div>
+        <FloatingLinks
+          github={personalData.github}
+          linkedin={personalData.linkedin}
+          resume={personalData.resume}
+        ></FloatingLinks>
       </div>
     </div>
   );
