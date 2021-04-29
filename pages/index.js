@@ -18,7 +18,7 @@ export default function Home() {
         <title>{personalData.name} Portfolio</title>
       </Head>
       <div className="homepage">
-        <Name name="Josie Field"></Name>
+        <Name name="Josie Field" link={personalData.linkedin}></Name>
         <div className="projects projects__personal">
           <Title title="Personal Projects"></Title>
           <ProjectContainer
