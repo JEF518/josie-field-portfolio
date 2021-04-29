@@ -10,7 +10,7 @@ const projectsData = JSON.parse(
 const personalData = JSON.parse(
   JSON.stringify(require('../data/personalinfo.json'))
 );
-console.log(projectsData);
+
 export default function Home() {
   return (
     <div>
