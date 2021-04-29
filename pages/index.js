@@ -35,6 +35,7 @@ export default function Home() {
           github={personalData.github}
           linkedin={personalData.linkedin}
           resume={personalData.resume}
+          image={personalData.image}
         ></FloatingLinks>
       </div>
     </div>

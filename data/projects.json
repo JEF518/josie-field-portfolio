@@ -28,7 +28,7 @@
         "title": "Sky News Website",
         "link": "https://news.sky.com",
         "image": "skynews.png",
-        "description": "A leading news site for Sky",
+        "description": "A leading news site for Sky, also mini sites for various elections",
         "extra": true,
         "myRole": "I worked on news.sky.com for over 2 years, both frontend and backend. I was involved in work on a large range of features and bugs from implementing new widgets and tools to optimising the site's AMP pages, handling incidents and improving performance."
       },

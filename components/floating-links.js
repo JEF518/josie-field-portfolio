@@ -1,7 +1,10 @@
-export default function FloatingLinks({ github, linkedin, resume }) {
+import Photo from '../components/photo';
+
+export default function FloatingLinks({ github, linkedin, resume, image }) {
   return (
     <div class="floating-links">
       <div class="floating">
+        <Photo image={image}></Photo>
         <a href={github} target="blank">
           Github
         </a>
